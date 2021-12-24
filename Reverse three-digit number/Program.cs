@@ -9,7 +9,7 @@ namespace ReverseThreeDigitNumber
 		{
 			string numberString = Console.ReadLine();
 			string reversedNumberString = new string(numberString.Reverse().ToArray());
-			Console.WriteLine(reversedNumberString);//Without Further interruption 
+			Console.WriteLine(reversedNumberString);
 		}
 	}
 }
